@@ -2,9 +2,10 @@ import 'dart:io';
 
 void main() {
   int? units;
-  stdout.write('Enter A Number');
+  stdout.write('Enter units of Electricity:');
 
   units = int.parse(stdin.readLineSync()!);
+  stdout.write ('The total Bill is :');
 
   if (units <= 200) {
     print(units * 0.5);
