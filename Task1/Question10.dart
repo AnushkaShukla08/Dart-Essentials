@@ -7,6 +7,7 @@ void main() {
   for (r = 1; r <= 7; r++) {
     for (i = 1; i <= num; i++) {
       print("  ");
+      num--;
     }
     for (j = 1; j <= r; j++) {
       stdout.write("* ");
