@@ -12,7 +12,7 @@ void Fibonacci(int total, int prevnum1, int prevnum2) {
 
 void main() {
   int num1 = 0, num2 = 1;
-  stdout.write("Enter number of terms in Fibonacci Series");
+  stdout.write("Enter number of terms in Fibonacci Series :");
   int? total = int.parse(stdin.readLineSync()!);
   print(num1);
   print(num2);
