@@ -2,10 +2,10 @@ import 'dart:io';
 
 void main() {
   Map<String, Object> mappingbirthdays = {
-    "ANUSHREE": "22/01/2003",
-    "SNIGDHA": "15/03/2003",
-    "MANU": "10/08/2002",
-    "ANUSHKA": "10/08/2002"
+    "GULLU": "22/01/2003",
+    "KITTU": "25/10/2003",
+    "MANU": "08/08/2003",
+    "BITTO": "12/01/2004"
   };
 
   print("\nThe birthdays of our TEAM MEMBERS are: \n");
